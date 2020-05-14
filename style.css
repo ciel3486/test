@@ -8,9 +8,11 @@ body {
 }
 div#headtitle-area {
 }
-#mid-content {
-    width : 80% ;
-    padding : 2em ;
+div#mid-content {
+    width : 80%;
+    background-color : #D5D5D5;
+    margin: 0 auto;
+    
 }
 #content { 
     font-family : "Noto Sans KR", sans-serif;
