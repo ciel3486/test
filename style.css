@@ -3,8 +3,26 @@ html {
     padding: 0px;
 }
 body {
+     min-height: calc(100vh - 4em);
+     margin: 0 auto;
 }
-div.headtitle-area {
+div#headtitle-area {
 }
-div.mid-content {
+#mid-content {
+    width : 80% ;
+    padding : 2em ;
+}
+#content { 
+    font-family : "Noto Sans KR", sans-serif;
+    font-size : 20;
+    text-align : center;
+}
+.start {
+    font-family : "Noto Sans KR", sans-serif;
+    font-size : 36;
+}
+div#reference {
+    font-family : "Noto Sans KR", sans-serif;
+    font-size : 10;
+    text-align : right;
 }
