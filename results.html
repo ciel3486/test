@@ -1,0 +1,69 @@
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title> Belle Epoque : 당신의 정치적 관심도와 편향성을 체크해보세요! </title>
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="headtitle-area">
+</div>
+<div class="mid-content">
+  <div class="content">
+  <h2> 결과 </h2>
+    <h2> 편향도 : <span class="weight-300" id="bias-label"></span></h2>
+    <div class="axis">
+      <div class="bar bias" id="bar-bias"><div class="text-wrapper" id="bias"> </div></div>
+    </div>
+    <h2> 관심도: <span class="weight-300" id="interest-label"></span></h2>
+    <div class="axis">
+      <div class="bar interest" id="bar-interest"><div class="text-wrapper" id="interest"></div></div>
+    </div>
+  </div>
+</div>
+<div class="reference">
+    이 사이트는 정치 성향 테스트인 8 Values의 소스코드를 를 참조하여 제작되었습니다. 
+</div>
+<script>
+function getQueryVariable(variable)
+    {
+           var query = window.location.search.substring(1)
+           var vars = query.split("&")
+           for (var i=0;i<vars.length;i++) {
+                   var pair = vars[i].split("=")
+                   if(pair[0] == variable) {return pair[1]}
+           }
+           return(NaN);
+    }
+
+    function setBarValue(name, value) {
+        innerel = document.getElementById(name)
+        outerel = document.getElementById("bar-" + name)
+        outerel.style.width = (value + "%")
+        innerel.innerHTML = (value + "%")
+        if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
+            innerel.style.visibility = "hidden"
+        }
+    }
+
+    biasArray = ["매우 편향됨","조금 편향됨","보통","의견이 없음"]
+    inteArray = ["매우 높은 관심","적절한 관심", "신경쓰지 않음", "무관심"]
+    
+    function setLabel(val,ary) {
+        if (val > 100) { return "" } else
+        if (val >= 75) { return ary[0] } else
+        if (val >= 50) { return ary[1] } else
+        if (val >= 25) { return ary[2] } else
+        if (val >= 0) { return ary[3] } else
+         	{return ""}
+    }
+
+    bias  = getQueryVariable("s")
+    interest = getQueryVariable("i")
+
+    setBarValue("bias", bias)
+    setBarValue("interest", interest)
+
+    document.getElementById("bias-label").innerHTML = setLabel(bias, biasArray)
+    document.getElementById("interest-label").innerHTML = setLabel(interest, inteArray)
+</script>
+</body>
