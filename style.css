@@ -11,6 +11,9 @@ div#headtitle-area {
     background-color:#FFFFFF;
     line-height : 400px;
     vertical-align : middle;
+    border-bottom-style : solid;
+    border-color : #000000;
+    border-width : 2px;
 }
 img#title {
     display : block;
