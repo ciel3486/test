@@ -3,15 +3,14 @@ html {
     padding: 0px;
 }
 body {
-     min-height: calc(100vh - 4em);
      margin: 0 auto;
      background-color : #D5D5D5;
 }
 div#headtitle-area {
 }
 div#mid-content {
-    width : 80vmin;
-    height : 100vmax;    
+    width : 80vw;
+    height : 100vh;    
     margin: 0 auto;
     
 }
@@ -19,6 +18,7 @@ div#mid-content {
     font-family : "Noto Sans KR", sans-serif;
     font-size : 20;
     text-align : center;
+    margin: 0 auto;
 }
 .start {
     font-family : "Noto Sans KR", sans-serif;
