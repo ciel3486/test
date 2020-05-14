@@ -22,6 +22,9 @@ div#mid-content {
 .start {
     font-family : "Noto Sans KR", sans-serif;
     font-size : 36;
+    width: 50%;
+    min-width: 400pt;
+    text-align: center;
 }
 div#reference {
     font-family : "Noto Sans KR", sans-serif;
