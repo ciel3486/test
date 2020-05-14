@@ -5,12 +5,12 @@ html {
 body {
      min-height: calc(100vh - 4em);
      margin: 0 auto;
+     background-color : #D5D5D5;
 }
 div#headtitle-area {
 }
 div#mid-content {
     width : 80%;
-    background-color : #D5D5D5;
     margin: 0 auto;
     
 }
@@ -25,6 +25,8 @@ div#mid-content {
     width: 50%;
     min-width: 400pt;
     text-align: center;
+    border : 0pt;
+    border-radius : 8pt;
 }
 div#reference {
     font-family : "Noto Sans KR", sans-serif;
