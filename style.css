@@ -9,7 +9,7 @@ body {
 img#title {
     background-color:#FFFFFF;
     width : 80%;
-    height : 10%;
+    height : auto;
 }
 div#headtitle-area {
     background-color:#FFFFFF;
