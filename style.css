@@ -9,6 +9,8 @@ body {
 div#headtitle-area {
     height : 400px;
     background-color:#FFFFFF;
+    line-height : 400px;
+    vertical-align : middle;
 }
 img#title {
     display : block;
