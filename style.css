@@ -6,12 +6,16 @@ body {
      margin: 0 auto;
      background-color : #D5D5D5;
 }
-img#title {
-    background-color:#FFFFFF;
-}
 div#headtitle-area {
-    height : 15vh;
+    height : 500px;
     background-color:#FFFFFF;
+    text-align : center;
+}
+img#title {
+    width : auto;
+    height : 80%;
+    background-color:#FFFFFF;
+    
 }
 div#mid-content {
     background-color: #FFFFFF;
