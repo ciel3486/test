@@ -8,23 +8,25 @@
 <script type="application/javascript"
         src="questions.js">
 </script>
-<div class="headtitle-area">
+<div id="headtitle-area">
+    <img src="title.png" id="title" alt="title" height = 90% width = auto/>
 </div>
 <div class="mid-content">
   <div class="content">
   <p class="question" id="question-text"></p>
-  <button class="button" onclick="next_question( 1.0)" style="background-color: #F8B195;">매우 그렇다.</button> <br>
-  <button class="button" onclick="next_question( 0.5)" style="background-color: #F67280;">그렇다.</button> <br>
-  <button class="button" onclick="next_question( 0.0)" style="background-color: #C06C84;">보통이다. / 모르겠다.</button> <br>
-  <button class="button" onclick="next_question(-0.5)" style="background-color: #6C5B7B;">그렇지 않다.</button> <br>
-  <button class="button" onclick="next_question(-1.0)" style="background-color: #355C7D;">매우 그렇지 않다.</button> <br>
-  <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
-  <button class="small_button_off" id="back_button_off">Back</button><br>
+  <button class="select" onclick="next_question( 1.0)" style="background-color: #F8B195;"> 매우 그렇다. </button> <br>
+  <button class="select" onclick="next_question( 0.5)" style="background-color: #F67280;"> 그렇다. </button> <br>
+  <button class="select" onclick="next_question( 0.0)" style="background-color: #C06C84;"> 보통이다. / 모르겠다. </button> <br>
+  <button class="select" onclick="next_question(-0.5)" style="background-color: #6C5B7B;"> 그렇지 않다. </button> <br>
+  <button class="select" onclick="next_question(-1.0)" style="background-color: #355C7D;"> 매우 그렇지 않다. </button> <br>
+  <button class="back" onclick="prev_question()" id="back_button">Back</button>
+  <button class="back_off" id="back_button_off">Back</button><br>
   </div>
 </div>
 <div class="reference">
     이 사이트는 정치 성향 테스트인 8 Values의 소스코드를 를 참조하여 제작되었습니다. 
 </div>
+    
 <script>
     var max_bias, max_inte; // Max possible scores
     max_bias = max_inte = 0;
