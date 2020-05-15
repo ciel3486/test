@@ -26,6 +26,7 @@ div#mid-content {
     height : 100vh;    
     margin: 0 auto;
     
+    
 }
 #content { 
     font-family : "Noto Sans KR", sans-serif;
@@ -42,11 +43,6 @@ div#mid-content {
     border : 0pt;
     border-radius : 8pt;
 }
-div#reference {
-    font-family : "Noto Sans KR", sans-serif;
-    font-size : 10;
-    text-align : right;
-}
 p.instructions {
     font-family : "Noto Sans KR", sans-serif;
     font-size : 30;
@@ -54,4 +50,11 @@ p.instructions {
     background-color : #EAEAEA;
     border : 0pt;
     border-radius : 16pt;
+    text-align : center;
 }
+div#reference {
+    font-family : "Noto Sans KR", sans-serif;
+    font-size : 10;
+    text-align : right;
+}
+
