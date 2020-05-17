@@ -51,6 +51,7 @@ p.instructions {
     border : 1pt;
     border-radius : 8pt;
     border-color : black;
+    cursor: pointer;
 }
 .select {
     font-family : "Noto Sans KR", sans-serif;
@@ -61,6 +62,22 @@ p.instructions {
     border : 1pt;
     border-radius : 8pt;
     border-color : black;
+    cursor: pointer;
+}
+.back, .back_off {
+    background-color: #333;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: white;
+    padding: 8pt;
+    width: 10%;
+    min-width: 100pt;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18pt;
+    cursor: pointer;
 }
 #question-text {
     width : 70%;
