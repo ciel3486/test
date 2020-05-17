@@ -99,6 +99,39 @@ p.instructions {
     margin : 0 auto;
     padding : 4pt
 }
+div.axis {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+div.bar {
+    height: 36pt;
+    line-height: 36pt;
+    padding: 8pt;
+    margin-top: 4pt;
+    margin-bottom: 4pt;
+    background-color: #eeeeee;
+    display: block;
+    width: 50%;
+}
+div.text-wrapper {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    color: #222222;
+    display: inline-block;
+}
+div.bias {
+    background-color: #f44336;
+    text-align: left;
+    border-left-style: solid;
+}
+div.interest {
+    background-color: #00897b;
+    text-align: left;
+    border-left-style: solid;
+}
 div#reference {
     font-family : "Noto Sans KR", sans-serif;
     font-size : 10;
