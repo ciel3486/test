@@ -104,7 +104,7 @@ div.axis {
     width: 100%;
     display: flex;
     align-items: left;
-    justify-content: center;
+    justify-content: flex-start;
 }
 div.bar {
     height: 36pt;
