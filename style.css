@@ -93,6 +93,7 @@ p.instructions {
     border-radius : 16pt;
     font-size : 36; 
     margin : 0 auto;
+    margin-top : 25px;
 }
 div#reference {
     font-family : "Noto Sans KR", sans-serif;
