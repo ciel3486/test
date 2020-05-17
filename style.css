@@ -124,12 +124,12 @@ div.text-wrapper {
     display: inline-block;
 }
 div.bias {
-    background-color: #f44336;
+    background-color: #f67280;
     text-align: left;
     margin-left : 4px;
 }
 div.interest {
-    background-color: #00897b;
+    background-color: #355c7d;
     text-align: left;
     margin-left : 4px
 }
