@@ -7,9 +7,9 @@ body {
      background-color : #D5D5D5;
 }
 div#headtitle-area {
-    height : 360px;
+    width : 100vw;
     background-color:#FFFFFF;
-    line-height : 360px;
+    height : 25vw;
     vertical-align : middle;
     border-bottom-style : solid;
     border-color : #000000;
