@@ -50,6 +50,7 @@ p.instructions {
     border : 0pt;
     border-radius : 16pt;
     margin : 0 auto;
+    padding : 4pt;
 }
 div#reference {
     font-family : "Noto Sans KR", sans-serif;
