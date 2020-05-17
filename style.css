@@ -132,6 +132,10 @@ div.interest {
     text-align: left;
     border-left-style: solid;
 }
+div#advice {
+    font-family : 'Noto Sans KR', sans-serif;
+    font-size : 20;
+}
 div#reference {
     font-family : "Noto Sans KR", sans-serif;
     font-size : 10;
