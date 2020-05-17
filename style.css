@@ -87,11 +87,14 @@ p.instructions {
     cursor: not-allowed;
     margin: -4px auto;
 }
+#question-number{
+    font-size : 30pt;
+    }
 #question-text {
     width : 70%;
     background-color : #D5D5D5;
     border-radius : 16pt;
-    font-size : 36; 
+    font-size : 24; 
     margin : 0 auto;
     padding : 4pt
 }
