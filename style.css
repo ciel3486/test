@@ -6,6 +6,9 @@ body {
      margin: 0 auto;
      background-color : #D5D5D5;
 }
+h1 {
+    font-size : 36;
+}
 div#headtitle-area {
     width : 100vw;
     background-color:#FFFFFF;
